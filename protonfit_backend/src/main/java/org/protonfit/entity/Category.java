@@ -16,16 +16,20 @@ public class Category {
     @Column(name = "description")
     private String description;
 
+    @Column(name = "image_url")
+    private String imageUrl;
+
     private Boolean active = true;
 
     public Category() {
     }
 
-    public Category(Long id, Boolean active, String name, String description) {
+    public Category(Long id, String name, String description, String imageUrl, Boolean active) {
         this.id = id;
-        this.active = active;
         this.name = name;
         this.description = description;
+        this.imageUrl = imageUrl;
+        this.active = active;
     }
 
     public Long getId() {
@@ -50,6 +54,14 @@ public class Category {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public Boolean getActive() {
