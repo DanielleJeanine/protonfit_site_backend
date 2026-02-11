@@ -13,10 +13,10 @@ public class Category {
     @Column(name = "name", nullable = false, unique = true)
     private String name;
 
-    @Column(name = "description")
+    @Column(name = "description", columnDefinition = "TEXT")
     private String description;
 
-    @Column(name = "image_url")
+    @Column(name = "image_url", columnDefinition = "TEXT")
     private String imageUrl;
 
     private Boolean active = true;

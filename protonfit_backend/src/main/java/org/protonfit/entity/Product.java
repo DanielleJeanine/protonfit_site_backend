@@ -16,7 +16,10 @@ public class Product {
     @Column(name = "code", nullable = false, unique = true)
     private String code;
 
-    @Column(name = "image_url")
+    @Column(name = "description", columnDefinition = "TEXT")
+    private String description;
+
+    @Column(name = "image_url", columnDefinition = "TEXT")
     private String imageUrl;
 
     @ManyToOne
@@ -28,10 +31,11 @@ public class Product {
     public Product() {
     }
 
-    public Product(Long id, String name, String code, String imageUrl, Category category, Boolean active) {
+    public Product(Long id, String name, String code, String description, String imageUrl, Category category, Boolean active) {
         this.id = id;
         this.name = name;
         this.code = code;
+        this.description = description;
         this.imageUrl = imageUrl;
         this.category = category;
         this.active = active;
@@ -51,6 +55,14 @@ public class Product {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getCode() {

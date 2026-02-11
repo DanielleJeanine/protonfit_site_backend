@@ -19,7 +19,12 @@ public class ProductController {
         this.productService = productService;
     }
 
-    @GetMapping("/{code}")
+    @GetMapping("/details/{id}")
+    public ResponseEntity<ProductResponseDTO> findById (@PathVariable Long id){
+        return ResponseEntity.ok().body(productService.findById(id));
+    }
+
+    @GetMapping("/bycode/{code}")
     public ResponseEntity<ProductResponseDTO> findByCode (@PathVariable String code){
         return ResponseEntity.ok().body(productService.findByCode(code));
     }

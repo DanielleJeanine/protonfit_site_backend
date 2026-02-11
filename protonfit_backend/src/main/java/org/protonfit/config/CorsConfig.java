@@ -10,7 +10,8 @@ public class CorsConfig {
     private static final String[] ALLOWED_ORIGINS = {
             "http://localhost:3000",
             "http://localhost:80",
-            "http://localhost"
+            "http://localhost",
+            "https://protonfit-site.vercel.app"
     };
 
     @Bean
