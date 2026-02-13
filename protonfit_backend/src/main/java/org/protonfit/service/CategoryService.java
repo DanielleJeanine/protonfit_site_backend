@@ -25,7 +25,7 @@ public class CategoryService {
     }
 
     public List<CategoryResponseDTO> getCategories(){
-        return categoryRepository.findByActiveTrue()
+        return categoryRepository.findByActiveTrueOrderByNameAsc()
                 .stream()
                 .map(this:: toDTO)
                 .toList();
