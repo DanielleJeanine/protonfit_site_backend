@@ -11,7 +11,9 @@ public class CorsConfig {
             "http://localhost:3000",
             "http://localhost:80",
             "http://localhost",
-            "https://protonfit-site.vercel.app"
+            "https://protonfit-site.vercel.app",
+            "https://www.protonfitequipamentos.com.br",
+            "https://protonfitequipamentos.com.br"
     };
 
     @Bean

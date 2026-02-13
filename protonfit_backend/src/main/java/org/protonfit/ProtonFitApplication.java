@@ -8,5 +8,6 @@ public class ProtonFitApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ProtonFitApplication.class, args);
+
     }
 }
