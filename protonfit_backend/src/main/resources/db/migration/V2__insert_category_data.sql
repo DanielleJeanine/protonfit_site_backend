@@ -18,7 +18,7 @@ INSERT INTO category (name, image_url, description, active) VALUES
   TRUE
 ),
 (
-  'Linha SW',
+  'Linha SW Máquinas',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770759274/LinhaSW_ujezba.jpg',
   'Desenvolvida para oferecer praticidade, resistência e eficiência no uso diário em academias. Com design funcional, estrutura confiável e excelente estabilidade durante os exercícios, seus equipamentos garantem segurança, bom desempenho e melhor aproveitamento do espaço. Versátil e durável, a Linha SW reforça o padrão de qualidade ProtonFit e é ideal para ambientes fitness que buscam funcionalidade, organização e confiabilidade contínua.',
   TRUE
@@ -30,7 +30,7 @@ INSERT INTO category (name, image_url, description, active) VALUES
   TRUE
 ),
 (
-  'Plate Loaded Gold',
+  'Linha Gold',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770759265/LinhaPlateLoadedGold_rbbg5n.jpg',
   'Desenvolvida para treinos com cargas elevadas, combinando estrutura ultra reforçada, alto desempenho e acabamento premium. Com design imponente, oferece estabilidade superior, segurança e durabilidade, elevando o padrão técnico e visual de academias e espaços fitness profissionais. Ideal para usuários exigentes que buscam máxima performance e confiabilidade.',
   TRUE
@@ -46,5 +46,18 @@ INSERT INTO category (name, image_url, description, active) VALUES
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770759262/LinhaLivreArticuladosStar_cww8ej.jpg',
   'Desenvolvidos para oferecer movimentos precisos, excelente estabilidade e alto desempenho em cada exercício. Com sistema articulado eficiente e estrutura robusta, os equipamentos acompanham a biomecânica natural do corpo, proporcionando treinos mais seguros, confortáveis e eficazes. Ideais para academias que buscam qualidade profissional, os Articuladores Star elevam o padrão técnico do treino e reforçam a confiabilidade da ProtonFit no mercado fitness.',
   TRUE
+),
+(
+  'Linha Omega 1.0',
+  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770759267/LinhaOmega_n9fbe4.jpg',
+  'Desenvolvida para uso profissional intenso, a linha reúne equipamentos robustos, com elevada capacidade de carga, estrutura reforçada e funcionamento preciso, atendendo as principais demandas da musculação. Com design funcional, excelente estabilidade e acabamento de nível profissional, a Linha Omega 1.0 garante treinos seguros, eficientes e consistentes, elevando o desempenho dos usuários e valorizando o padrão técnico e visual das academias.',
+  TRUE
+),
+(
+  'Acessórios',
+  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1774225389/acessorios_auqia0.jpg',
+  'Desenvolvidos para elevar o padrão do seu espaço fitness, a linha de acessórios ProtonFit une design moderno, alta durabilidade e performance superior. Cada detalhe foi pensado para ofercer mais conforto, segurança, e eficiência nos treinos, valorizando a experiência do usuário e a estética do ambiente.',
+  TRUE
 )
+
 ON CONFLICT (name) DO NOTHING;

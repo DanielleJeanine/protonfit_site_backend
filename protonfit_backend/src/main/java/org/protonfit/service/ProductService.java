@@ -42,6 +42,11 @@ public class ProductService {
                 .map(this::toDTO);
     }
 
+    public Page<ProductResponseDTO> findByName (String name, Pageable pageable){
+        return productRepository.findByNameContainingIgnoreCaseAndActiveTrue(name, pageable)
+                .map(this::toDTO);
+    }
+
     private ProductResponseDTO toDTO(Product product) {
         return new ProductResponseDTO(
                 product.getId(),

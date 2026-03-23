@@ -39,4 +39,16 @@ public class ProductController {
 
         return ResponseEntity.ok().body(productService.findByCategory(categoryId, pageable));
     }
+
+    @GetMapping("/search")
+
+    public ResponseEntity<Page<ProductResponseDTO>> getByName (
+            @RequestParam String name,
+            @RequestParam (defaultValue = "0") int page,
+            @RequestParam (defaultValue = "12") int size
+    ){
+        Pageable pageable = PageRequest.of(page, size, Sort.by("name").ascending());
+
+        return ResponseEntity.ok().body(productService.findByName(name, pageable));
+    }
 }

@@ -12,10 +12,10 @@ public class BudgetService {
     }
 
     public void sendBudget(BudgetRequestDTO budgetRequestDTO) {
-         String bodyComercial = buildEmailBody(budgetRequestDTO);
+         String bodyCommercial = buildEmailBody(budgetRequestDTO);
          String bodyClient = buildEmailToCliente(budgetRequestDTO);
 
-         emailService.send("protonfitequipamentos@gmail.com", "Novo pedido de orçamento", bodyComercial);
+         emailService.send("protonfitequipamentos@gmail.com", "Novo pedido de orçamento", bodyCommercial);
          emailService.send(budgetRequestDTO.email(),"Recebemos seu pedido de orçamento", bodyClient);
     }
 
@@ -45,8 +45,8 @@ public class BudgetService {
                         .append(p.productCode())
                         .append(")\n"));
 
-        if (budgetRequestDTO.company() !=null && !budgetRequestDTO.company().isBlank()){
-            sb.append("\nObservações:\n");
+        if (budgetRequestDTO.message() !=null && !budgetRequestDTO.message().isBlank()){
+            sb.append("\nMensagem:\n");
             sb.append(budgetRequestDTO.message());
         }
 

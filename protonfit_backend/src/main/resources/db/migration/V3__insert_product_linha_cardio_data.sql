@@ -84,7 +84,7 @@ VALUES
   'Esteira Proton Premium',
   'O máximo em inovação, conforto e performance. A Esteira Proton Premium é ideal para quem busca um equipamento de alto padrão, com design sofisticado e tecnologia voltada para treinos exigentes.',
   'CA11',
-  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770456225/ca10_esteira_proton_3.0_q1kkt1.png',
+  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770456215/ca11_esteira_proton_premium_y8fkah.jpg',
   (SELECT category_id FROM category WHERE name = 'Linha Cardio'),
   TRUE
 ),
@@ -108,7 +108,7 @@ VALUES
   'Simulador Ski',
   'Inovação e desafio em cada movimento. O Simulador de Ski proporciona um treino dinâmico e funcional, trabalhando corpo inteiro com fluidez, controle e segurança.',
   'CA14',
-  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770456217/ca13_simulador_remo_qbcjdj.jpg',
+  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770456218/ca14_simulador_ski_znybzl.jpg',
   (SELECT category_id FROM category WHERE name = 'Linha Cardio'),
   TRUE
 ),
@@ -133,6 +133,14 @@ VALUES
   'Versatilidade, inovação e potência em um único equipamento. A TT-X5 foi desenvolvida para entregar treinos completos, com foco em segurança, durabilidade e alta performance.',
   'CA17',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770456222/ca17_tt_x5_ponco0.jpg',
+  (SELECT category_id FROM category WHERE name = 'Linha Cardio'),
+  TRUE
+),
+(
+  'Spinning 4.0',
+  'Alta performance para treinos intensos e consistentes. A Spinning 4.0 proporciona pedaladas estáveis, ajuste ergonômico preciso e estrutura reforçada para máxima segurança e conforto durante o exercício.',
+  'CA500',
+  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1774224892/CA500_chsepg.jpg',
   (SELECT category_id FROM category WHERE name = 'Linha Cardio'),
   TRUE
 )
