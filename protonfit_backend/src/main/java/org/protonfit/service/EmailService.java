@@ -23,7 +23,7 @@ public class EmailService {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.set("Authorization", "Bearer " + apiKey);
+        headers.set("api-key", apiKey);
 
         Map<String, Object> requestBody = Map.of(
                 "sender", Map.of(
