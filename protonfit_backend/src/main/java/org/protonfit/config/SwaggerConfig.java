@@ -22,7 +22,7 @@ public class SwaggerConfig {
                                 " com o objetivo de cadastrar e gerir os produtos oferecidos para orçamento."))
                 .servers(List.of(
                         new Server().url("http://localhost:8080").description("Servidor Local"),
-                        new Server().url("https://api.minhaprojeto.com").description("Servidor de Produção")
+                        new Server().url("protonfitsitebackend-production.up.railway.app").description("Servidor de Produção")
                 ));
     }
 
