@@ -10,7 +10,7 @@ import java.util.Map;
 @Service
 public class EmailService {
 
-    @Value("${BREVO_API_KEY}")
+    @Value("${brevo.api.key}")
     private String apiKey;
 
     private final RestTemplate restTemplate = new RestTemplate();
@@ -23,7 +23,7 @@ public class EmailService {
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.setBearerAuth(apiKey);
+        headers.set("api-key", apiKey);
 
         Map<String, Object> requestBody = Map.of(
                 "sender", Map.of(
