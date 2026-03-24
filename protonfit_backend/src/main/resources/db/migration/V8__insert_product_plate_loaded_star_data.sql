@@ -182,7 +182,7 @@ VALUES
  (SELECT category_id FROM category WHERE name = 'Plate Loaded Star'),
  TRUE),
 
-('Leg Press Vertical (90° Graus)',
+('Leg Press Vertical 90° Graus',
  'Treino intenso de pernas com máxima ativação muscular e segurança estrutural.',
  'TM39',
  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770755315/TM39_n7goxw.jpg',
@@ -259,7 +259,7 @@ VALUES
  (SELECT category_id FROM category WHERE name = 'Plate Loaded Star'),
  TRUE),
 
-('Rack de Banda Montada',
+('Rack de Barra Montada',
  'Organização prática e segura para barras, otimizando o espaço da academia.',
  'TM61',
  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770755325/TM61_pgvcox.jpg',
@@ -406,7 +406,7 @@ VALUES
   (SELECT category_id FROM category WHERE name = 'Plate Loaded Star'),
   TRUE),
 
- ('Máquina Leg Press Vertical 45º Graus',
+ ('Máquina Leg Press Vertical 90º Graus',
   'Máxima intensidade para membros inferiores com estrutura reforçada.',
   'TM99',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770755371/TM99_f6h0zt.jpg',

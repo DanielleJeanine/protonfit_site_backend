@@ -14,7 +14,7 @@ VALUES
  (SELECT category_id FROM category WHERE name = 'Linha SW Máquinas'),
  TRUE
 ),
-('Cross Over',
+('Crossover',
  'Isolamento preciso do peitoral, com movimento fluido, postura correta e excelente contração muscular.',
  'HS03',
  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770738627/HS03_p5u6wi.jpg',
@@ -217,7 +217,7 @@ VALUES
  (SELECT category_id FROM category WHERE name = 'Linha SW Máquinas'),
  TRUE
 ),
-('Cross Over',
+('Crossover',
  'Alta versatilidade para treinos de força e funcionais, com ajustes precisos e movimento fluido.',
  'HS85',
  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770738627/HS85_nnxto6.jpg',

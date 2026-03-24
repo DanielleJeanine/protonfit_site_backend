@@ -49,7 +49,7 @@ VALUES
   TRUE
 ),
 (
-  'Máquina Remada Sentada',
+  'Remada Sentada Máquina',
   'Fortalece costas com postura correta, fluidez e controle total do movimento.',
   'BF07',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770753886/BF07_ynfsld.jpg',
@@ -97,7 +97,7 @@ VALUES
   TRUE
 ),
 (
-  'Mesa Flexora Sentada',
+  'Mesa Flexora Deitada',
   'Foco total nos posteriores, com execução suave e apoio confortável.',
   'BF13',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770753933/BF13_twiyt9.jpg',
@@ -153,7 +153,7 @@ VALUES
   TRUE
 ),
 (
-  'Supino / Desenvolvimento Ombro (Conjugado)',
+  'Supino / Desenvolvimento Ombro Conjugado',
   'Dois exercícios em um só equipamento, otimizando espaço e ampliando possibilidades de treino.',
   'BF30',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770753898/BF30_lcytg3.jpg',

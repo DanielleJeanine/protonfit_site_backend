@@ -150,7 +150,7 @@ VALUES
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757230/TB48-_EQUIPAMENTO_VERTICAL_PARA_TREINO_DE_FOR%C3%87A_a6s909.jpg',
    (SELECT category_id FROM category WHERE name = 'Livre Articulados Star')),
 
-  ('Rack-Suporte Para Halteres (Dumbbells)',
+  ('Rack-Suporte Para Halteres Dumbbells',
    'Organização eficiente e segura dos halteres, otimizando espaço.',
    'TB49',
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757233/TB49-_RACK-SUPORTE_PARA_HALTERES_DUMBBELLS_pxn0qn.jpg',
@@ -180,7 +180,7 @@ VALUES
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757241/TB55-_SUPORTE_PARA_BARRAS_DE_PESO_FIXAS_g4vcmn.jpg',
    (SELECT category_id FROM category WHERE name = 'Livre Articulados Star')),
 
-  ('Máquina Leg Press Vertical 45° Graus',
+  ('Máquina Leg Press 45° Graus',
    'Alta performance para treino de pernas, com estabilidade e conforto.',
    'TB56',
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757245/TB56-_M%C3%81QUINA_LEG_PRESS_45_GRAUS_gbjm9i.jpg',
@@ -192,7 +192,7 @@ VALUES
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757248/TB57-_EQUIPAMENTO_AGACHAMENTO_E_PARTE_INFERIOR_tt4kpe.jpg',
    (SELECT category_id FROM category WHERE name = 'Livre Articulados Star')),
 
-  ('Leg 45° / Hack Machine (Conjugado)',
+  ('Leg 45° / Hack Machine Conjugado',
    'Versátil para diferentes exercícios com uso de anilhas.',
    'TB59',
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757250/TB59-_EQUIPAMENTO_CARGA_DE_PESO_LIVRE_kwejtd.jpg',
@@ -222,7 +222,7 @@ VALUES
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757260/TB65-_M%C3%81QUINA_DE_AGACHAMENTO_ARTICULADO_odgiw7.jpg',
    (SELECT category_id FROM category WHERE name = 'Livre Articulados Star')),
 
-  ('Rack Para Dumbbells Três Níveis',
+  ('Rack Para Dumbbells 3 Níveis',
    'Organização prática, resistente e ideal para academias profissionais.',
    'TB67',
    'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770757263/TB67-_RACK_PARA_DUMBBELLS_DE_3_N%C3%8DVEIS_cdvvzx.jpg',

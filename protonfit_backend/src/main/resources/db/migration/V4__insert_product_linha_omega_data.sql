@@ -153,7 +153,7 @@ VALUES
   TRUE
 ),
 (
-  'Cross Over',
+  'Crossover',
   'Liberdade de movimento para treinos funcionais e de musculação, com ampla variedade de exercícios e alto desempenho.',
   'BH21',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770752112/BH21_hwutuw.jpg',
@@ -161,7 +161,7 @@ VALUES
   TRUE
 ),
 (
-  'Cross Over Angular',
+  'Crossover Angular',
   'Inovação e versatilidade para treinos funcionais, força e reabilitação, com ajustes rápidos e estrutura robusta.',
   'BH22',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770752116/BH22_rpmdfm.jpg',
@@ -353,7 +353,7 @@ VALUES
   TRUE
 ),
 (
-  'Estação 02 Torre + Cross Over',
+  'Estação 02 Torres + Crossover',
   'Alta versatilidade para treinos simultâneos, perfeita para academias de médio e grande porte.',
   'BH61',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770752143/BH61_uvl0wd.jpg',
@@ -369,7 +369,7 @@ VALUES
   TRUE
 ),
 (
-  'Estação 03 Torre + Cross Over',
+  'Estação 03 Torres + Crossover',
   'Permite ampla variedade de exercícios com movimentos livres e controlados.',
   'BH63',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770752143/BH63_suitjm.jpg',
@@ -377,7 +377,7 @@ VALUES
   TRUE
 ),
 (
-  'Estação 04 Torre + Cross Over',
+  'Estação 04 Torres + Crossover',
   'Ideal para treinos completos, funcionais e personalizados em um único equipamento.',
   'BH64',
   'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770752146/BH64_zpqm6a.jpg',

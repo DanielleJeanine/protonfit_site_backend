@@ -41,7 +41,5 @@ public class EmailService {
                 new HttpEntity<>(requestBody, headers);
 
         restTemplate.postForEntity(BREVO_URL, request, String.class);
-
-        System.out.println("API KEY: " + apiKey);
     }
 }

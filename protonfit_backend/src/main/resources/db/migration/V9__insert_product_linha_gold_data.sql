@@ -77,7 +77,7 @@ VALUES
  (SELECT category_id FROM category WHERE name = 'Linha Gold'),
  TRUE),
 
-('Flexora Vertical',
+('Flexor Vertical',
  'Trabalho focado dos posteriores de coxa, com postura ergonômica e execução segura.',
  'TA75',
  'https://res.cloudinary.com/dhnaj9mdn/image/upload/v1770754949/TA75_afpg1v.jpg',
