@@ -55,10 +55,6 @@
             <artifactId>flyway-database-postgresql</artifactId>
         </dependency>
         <!-- Envio de E-mail -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>
 
         <!-- Swagger / OpenAPI (compatível com Boot 3) -->
         <dependency>
