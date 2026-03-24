@@ -18,7 +18,8 @@ public class CorsConfig {
                                 "http://localhost:*",
                                 "https://*.vercel.app",
                                 "https://protonfitequipamentos.com.br",
-                                "https://www.protonfitequipamentos.com.br"
+                                "https://www.protonfitequipamentos.com.br",
+                                "https://protonfitsitebackend-production.up.railway.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS")
                         .allowedHeaders("*")
