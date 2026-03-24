@@ -21,7 +21,6 @@ public class SwaggerConfig {
                         .description("API desenvolvida para o site da Protonfit Equipamentos," +
                                 " com o objetivo de cadastrar e gerir os produtos oferecidos para orçamento."))
                 .servers(List.of(
-                        new Server().url("http://localhost:8080").description("Servidor Local"),
                         new Server().url("protonfitsitebackend-production.up.railway.app").description("Servidor de Produção")
                 ));
     }
