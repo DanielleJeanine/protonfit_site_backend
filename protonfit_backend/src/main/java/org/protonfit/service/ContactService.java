@@ -30,10 +30,9 @@ public class ContactService {
         sb.append("Nome: ").append(contactRequestDTO.name()).append("\n");
         sb.append("E-mail: ").append(contactRequestDTO.email()).append("\n");
         sb.append("Telefone: ").append(contactRequestDTO.phone()).append("\n");
-
-        if (contactRequestDTO.company() !=null && !contactRequestDTO.company().isBlank()){
-            sb.append("Empresa: ").append(contactRequestDTO.company()).append("\n");
-        }
+        sb.append("Empresa: ").append(contactRequestDTO.company()).append("\n");
+        sb.append("Localização: ").append(contactRequestDTO.city()).append(" - ")
+                .append(contactRequestDTO.state()).append("\n");
 
         sb.append("\nMensagem:\n");
         sb.append(contactRequestDTO.message());

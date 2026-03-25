@@ -28,10 +28,9 @@ public class BudgetService {
         sb.append("Nome: ").append(budgetRequestDTO.name()).append("\n");
         sb.append("E-mail: ").append(budgetRequestDTO.email()).append("\n");
         sb.append("Telefone: ").append(budgetRequestDTO.phone()).append("\n");
-
-        if (budgetRequestDTO.company() !=null && !budgetRequestDTO.company().isBlank()){
-            sb.append("Empresa: ").append(budgetRequestDTO.company()).append("\n");
-        }
+        sb.append("Empresa: ").append(budgetRequestDTO.company()).append("\n");
+        sb.append("Localização: ").append(budgetRequestDTO.city()).append(" - ")
+                .append(budgetRequestDTO.state()).append("\n");
 
 
         sb.append("\nProdutos de interesse:\n");

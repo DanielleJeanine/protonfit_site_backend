@@ -6,6 +6,8 @@ public record BudgetRequestDTO(String name,
                                String email,
                                String phone,
                                String company,
+                               String state,
+                               String city,
                                String message,
                                List<BudgetProductDTO> products) {
 }
